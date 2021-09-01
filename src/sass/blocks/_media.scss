@@ -54,6 +54,14 @@
 			}
 		}
 	}
+	.consulting {
+		&__title {
+			font-size: 28px;
+		}
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -120,6 +128,27 @@
 			}
 		}
 	}
+
+	.consulting {
+		&__title {
+			font-size: 22px;
+		}
+		&__subtitle {
+			font-size: 14px;
+		}
+	}
+	.form_feed {
+		width: 270px;
+		input {
+			height: 40px;
+			padding: 0 10px;
+			font-size: 13px;
+		}
+		.button_feed {
+			height: 40px;
+			font-size: 13px;
+		}
+	}
 }
 
 @media (max-width: 576px) {
@@ -174,6 +203,29 @@
 			}
 		}
 	}
+
+	.consulting {
+		&__title {
+			font-size: 18px;
+			line-height: 40px;
+		}
+		&__subtitle {
+			font-size: 12px;
+			line-height: 22px;
+		}
+	}
+	.form_feed {
+		width: 250px;
+		input {
+			height: 35px;
+			padding: 0 8px;
+			font-size: 11px;
+		}
+		.button_feed {
+			height: 35px;
+			font-size: 11px;
+		}
+	}
 }
 
 @media (max-width: 320px) {
@@ -210,6 +262,29 @@
 		}
 		&__link {
 			font-size: 8px;
+		}
+	}
+
+	.consulting {
+		&__title {
+			font-size: 12px;
+			line-height: 26px;
+		}
+		&__subtitle {
+			font-size: 10px;
+			line-height: 20px;
+		}
+	}
+	.form_feed {
+		width: 230px;
+		input {
+			height: 30px;
+			padding: 0 8px;
+			font-size: 10px;
+		}
+		.button_feed {
+			height: 30px;
+			font-size: 10px;
 		}
 	}
 }
