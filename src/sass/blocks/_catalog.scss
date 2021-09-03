@@ -1,5 +1,5 @@
 .catalog {
-    padding-bottom: 80px;
+
 
     &__title {
         font-weight: normal;
@@ -55,7 +55,7 @@
         margin: 57px 0 80px 0;
         display: none;
         flex-wrap: wrap;
-        justify-content: space-between;
+        margin-left: -1%;
 
         &_active {
             display: flex;
@@ -63,12 +63,13 @@
     }
 
     &-item {
-        width: 303px;
+        flex-basis: 32%;
         min-height: 442px;
         background: #FFFFFF;
-        margin-bottom: 20px;
+        margin-bottom: 1%;
         border: 2px solid #E8E8E8;
         padding: 20px 20px 26px 20px;
+        margin-left: 1%;
         overflow: hidden;
         transition: .5s all;
         position: relative;
